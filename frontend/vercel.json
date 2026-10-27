@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/fast2sms-proxy/:path*",
+      "destination": "https://www.fast2sms.com/dev/:path*"
+    },
+    {
+      "source": "/twofactor-proxy/:path*",
+      "destination": "https://2factor.in/:path*"
+    },
+    {
+      "source": "/sarvam-proxy/:path*",
+      "destination": "https://api.sarvam.ai/:path*"
+    },
+    {
+      "source": "/kindwise-proxy/:path*",
+      "destination": "https://crop.kindwise.com/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

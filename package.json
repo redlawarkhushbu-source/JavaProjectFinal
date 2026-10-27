@@ -1,0 +1,29 @@
+{
+  "name": "shetsamarthan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shet Samarthan (शेत समर्थन) - AI-Powered Smart Agriculture Platform & 3D Farm Simulator",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:all": "node dev.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "cd backend && mvn spring-boot:run",
+    "start": "node dev.js",
+    "build": "npm --prefix frontend run build",
+    "install:all": "npm --prefix frontend install",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview"
+  },
+  "keywords": [
+    "shetsamarthan",
+    "agriculture",
+    "agritech",
+    "smart-farming",
+    "threejs",
+    "react",
+    "spring-boot"
+  ],
+  "author": "Shashank Poojari",
+  "license": "MIT"
+}
